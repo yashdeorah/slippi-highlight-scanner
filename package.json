@@ -1,0 +1,14 @@
+{
+  "name": "slippi-peach-highlight-scanner",
+  "version": "1.0.0",
+  "description": "Scan Slippi replays for clip-worthy Peach moments.",
+  "type": "module",
+  "bin": { "slippi-peach-scan": "src/cli.js" },
+  "scripts": {
+    "scan": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "slp-parser-js": "4.1.0" },
+  "license": "MIT"
+}
